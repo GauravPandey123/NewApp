@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
                 Log.d("test",it.toString())
             }
         }
+
         setContent {
             NewsAppTheme {
                 Box(modifier = Modifier.background(color = MaterialTheme.colorScheme.background))
